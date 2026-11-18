@@ -1,6 +1,6 @@
 # Sholo Guti (ষোলো গুটি)
 
-**The classic 16-guti board game of Bangladesh, in colourful 3D.** Free, offline, no ads. By [Abacus IT](https://abacusitbd.com).
+**The classic 16-guti board game of Bangladesh, India and Pakistan, in colourful 3D.** Free, offline, no ads. By [Abacus IT](https://abacusitbd.com).
 
 ![Sholo Guti](cover-en.png)
 
@@ -15,8 +15,8 @@
 
 ## About the game
 
-Sholo Guti ("sixteen pieces", also called 16 Guti or Sixteen Soldiers) is the much-loved village board game of
-Bangladesh, played for generations on courtyards, verandas and carved wooden boards.
+Sholo Guti ("sixteen pieces", also called 16 Guti, Solah Goti or Sixteen Soldiers) is the much-loved village board
+game of Bangladesh, India and Pakistan, played for generations on courtyards, verandas and carved wooden boards.
 
 - Play the computer at 5 levels (Beginner, Easy, Medium, Hard, Expert), or a friend on one device
 - Step-by-step tutorial and a full "How to play" guide
@@ -35,7 +35,7 @@ Capture all enemy gutis, or leave them with no move, to win.
 
 ![ষোলো গুটি](cover-bn.png)
 
-**বাংলার চিরচেনা ষোলো গুটি খেলা, রঙিন ত্রিমাত্রিক রূপে।** সম্পূর্ণ ফ্রি, অফলাইন, কোনো বিজ্ঞাপন নেই। প্রকাশক: [অ্যাবাকাস আইটি](https://abacusitbd.com)।
+**বাংলাদেশ, ভারত আর পাকিস্তানের চিরচেনা ষোলো গুটি খেলা, রঙিন ত্রিমাত্রিক রূপে।** সম্পূর্ণ ফ্রি, অফলাইন, কোনো বিজ্ঞাপন নেই। প্রকাশক: [অ্যাবাকাস আইটি](https://abacusitbd.com)।
 
 | কোথায় খেলবে | ডাউনলোড |
 |---|---|
@@ -54,4 +54,4 @@ Capture all enemy gutis, or leave them with no move, to win.
 ঠিক পেছনের ঘর খালি থাকলে লাফ দিয়ে ওটা খেয়ে ফেলো, আবার খাওয়া গেলে আবার লাফ দাও। সব গুটি খেয়ে ফেললে, বা প্রতিপক্ষ আর
 চাল দিতে না পারলে, তুমি জিতবে।
 
-*Keywords: sholo guti, shologuti, 16 guti, sixteen soldiers, bead game, Bangladesh board game, ষোলো গুটি, ষোল গুটি, ষোলগুটি, ১৬ গুটি, গুটি খেলা*
+*Keywords: sholo guti, shologuti, 16 guti, solah goti, sola goti, sola gutti, 16 goti, sixteen goti, sixteen soldiers, bead game, Bangladesh board game, Indian board game, Pakistani board game, desi board game, ষোলো গুটি, ষোল গুটি, ষোলগুটি, ১৬ গুটি, গুটি খেলা, सोलह गोटी, सोलह गोटी खेल, सोला गोटी, गोटी खेल, देसी खेल, سولہ گوٹی, سولہ گوٹی کھیل, گوٹی کا کھیل*
