@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <radialGradient id="r" cx="35%" cy="30%" r="70%"><stop offset="0" stop-color="#ff9a8a"/><stop offset=".5" stop-color="#ff4d4d"/><stop offset="1" stop-color="#b8231f"/></radialGradient>
+    <radialGradient id="g" cx="35%" cy="30%" r="70%"><stop offset="0" stop-color="#8af0c4"/><stop offset=".5" stop-color="#22b07d"/><stop offset="1" stop-color="#0f6b48"/></radialGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="#ffd59a"/>
+  <path d="M40 14 H88 L72 36 H56 Z M56 92 H72 L88 114 H40 Z" fill="#f0c27a" stroke="#b8743a" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="30" y="36" width="68" height="56" rx="8" fill="#f0c27a" stroke="#b8743a" stroke-width="3"/>
+  <g stroke="#6e3b17" stroke-width="2.4" stroke-linecap="round" fill="none">
+    <path d="M38 44 H90 M38 64 H90 M38 84 H90 M38 44 V84 M64 44 V84 M90 44 V84 M38 44 L90 84 M90 44 L38 84"/>
+    <path d="M64 44 L48 20 H80 Z M64 84 L48 108 H80 Z M64 44 V20 M64 84 V108"/>
+  </g>
+  <circle cx="38" cy="84" r="9" fill="url(#r)"/><circle cx="64" cy="84" r="9" fill="url(#r)"/><circle cx="64" cy="108" r="8" fill="url(#r)"/>
+  <circle cx="90" cy="44" r="9" fill="url(#g)"/><circle cx="64" cy="20" r="8" fill="url(#g)"/><circle cx="38" cy="44" r="9" fill="url(#g)"/>
+  <circle cx="64" cy="64" r="10" fill="url(#r)" stroke="#fff" stroke-width="2.5"/>
+</svg>
