@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sholo Guti (ষোলো গুটি, Solah Goti): the classic 16 guti board game of Bangladesh, India and Pakistan</title>
+<meta name="description" content="Sholo Guti (ষোলো গুটি, 16 Guti), the classic 16 guti board game of Bangladesh, India and Pakistan (also called Solah Goti), in colourful 3D. Play the computer at 5 levels or a friend. Android, Windows, Linux and in the browser. Free, offline, no ads. By Abacus IT.">
+<meta name="keywords" content="sholo guti, shologuti, 16 guti, solah goti, sola goti, sola gutti, 16 goti, sixteen goti, sixteen soldiers, bead game, bangladesh board game, indian board game, pakistani board game, desi board game, south asian game, ষোলো গুটি, ষোল গুটি, ষোলগুটি, ১৬ গুটি, গুটি খেলা, सोलह गोटी, सोलह गोटी खेल, सोला गोटी, गोटी खेल, देसी खेल, سولہ گوٹی, سولہ گوٹی کھیل, گوٹی کا کھیل">
+<meta property="og:title" content="Sholo Guti (ষোলো গুটি)">
+<meta property="og:description" content="The classic 16 guti board game of Bangladesh, India and Pakistan, in colourful 3D. Free, offline, no ads.">
+<meta property="og:image" content="cover-en.png">
+<link rel="icon" href="icon.svg">
+<style>
+@font-face { font-family: "Baloo Da 2"; src: url("BalooDa2.ttf") format("truetype"); font-weight: 400 800; font-display: swap; }
+:root { --ink: #3b2412; --card: #fffaf0; --go: #2fbf71; --go-d: #1f8f52; --b1: #ff8a3d; --b1-d: #d2601a; --b2: #4aa8ff; --b2-d: #2577c9; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Baloo Da 2", "Noto Sans Bengali", system-ui, sans-serif; color: var(--ink); background: linear-gradient(#fff3d6, #ffd59a) fixed; }
+.wrap { max-width: 1000px; margin: 0 auto; padding: 18px 16px 40px; }
+header { display: flex; align-items: center; gap: 14px; }
+header img { width: 64px; height: 64px; }
+h1 { margin: 0; font-size: 40px; color: #e2452b; line-height: 1; }
+.tag { margin: 2px 0 0; opacity: .75; }
+.lang { margin-left: auto; background: #fff; border: 0; border-radius: 12px; padding: 6px 14px; font: inherit; font-weight: 700; cursor: pointer; box-shadow: 0 3px 0 #ead9b8; }
+.cover { width: 100%; border-radius: 22px; margin: 18px 0; box-shadow: 0 10px 30px rgba(80,40,10,.25); display: block; }
+.btns { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 10px 0 24px; }
+.btns a { display: block; text-decoration: none; color: #fff; font-weight: 800; font-size: 19px; text-align: center; border-radius: 18px; padding: 12px 10px 14px; }
+.btns small { display: block; font-size: 13px; font-weight: 500; opacity: .9; }
+.play { background: var(--go); box-shadow: 0 5px 0 var(--go-d); }
+.and { background: var(--b1); box-shadow: 0 5px 0 var(--b1-d); }
+.win, .lin { background: var(--b2); box-shadow: 0 5px 0 var(--b2-d); }
+.shots { display: flex; gap: 12px; overflow-x: auto; padding-bottom: 6px; }
+.shots img { height: 420px; border-radius: 18px; box-shadow: 0 6px 18px rgba(80,40,10,.2); }
+.card { background: var(--card); border-radius: 22px; padding: 18px 22px; margin: 18px 0; box-shadow: 0 5px 0 rgba(120,70,20,.15); }
+.card h2 { margin: 0 0 6px; } .card ul { margin: 6px 0; padding-left: 22px; line-height: 1.6; }
+footer { display: flex; align-items: center; gap: 10px; justify-content: center; margin-top: 26px; opacity: .85; }
+footer img { width: 40px; height: 40px; } footer a { color: inherit; }
+body.en [data-l="bn"], body.bn [data-l="en"] { display: none !important; }
+</style>
+</head>
+<body class="en">
+<div class="wrap">
+  <header>
+    <img src="icon.svg" alt="">
+    <div><h1><span data-l="en">Sholo Guti</span><span data-l="bn">ষোলো গুটি</span></h1>
+      <p class="tag"><span data-l="en">ষোলো গুটি · Solah Goti · loved across Bangladesh, India and Pakistan</span><span data-l="bn">বাংলার চিরচেনা খেলা, রঙিন ত্রিমাত্রিক রূপে</span></p></div>
+    <button class="lang" id="lang">বাংলা</button>
+  </header>
+  <img class="cover" data-l="en" src="cover-en.png" alt="Sholo Guti">
+  <img class="cover" data-l="bn" src="cover-bn.png" alt="ষোলো গুটি">
+  <div class="btns">
+    <a class="play" href="play/"><span data-l="en">▶ Play in the browser</span><span data-l="bn">▶ ব্রাউজারে খেলো</span><small data-l="en">iPhone, iPad, any computer</small><small data-l="bn">আইফোন, আইপ্যাড, যেকোনো কম্পিউটার</small></a>
+    <a class="and" href="https://github.com/riadul/sholo-guti-download/releases/latest/download/SholoGuti.apk"><span data-l="en">Android (APK)</span><span data-l="bn">অ্যান্ড্রয়েড (APK)</span><small>Android 8+</small></a>
+    <a class="win" href="https://github.com/riadul/sholo-guti-download/releases/latest/download/SholoGuti-Setup-x64.exe"><span data-l="en">Windows</span><span data-l="bn">উইন্ডোজ</span><small>Windows 10 / 11</small></a>
+    <a class="lin" href="https://snapcraft.io/sholo-guti"><span data-l="en">Linux (Snap Store)</span><span data-l="bn">লিনাক্স (স্ন্যাপ স্টোর)</span><small>sudo snap install sholo-guti</small></a>
+  </div>
+  <div class="shots" data-l="en"><img src="en-02-game.jpg" alt=""><img src="en-03-tutorial.jpg" alt=""><img src="en-05-royal.jpg" alt=""></div>
+  <div class="shots" data-l="bn"><img src="bn-02-game.jpg" alt=""><img src="bn-03-tutorial.jpg" alt=""><img src="bn-05-royal.jpg" alt=""></div>
+  <div class="card" data-l="en">
+    <h2>The village game, now in 3D</h2>
+    <p>Sholo Guti ("sixteen pieces", also called 16 Guti, Solah Goti or Sixteen Soldiers) is the much-loved board game of Bangladesh, India and Pakistan, played for generations on courtyards, verandas and carved wooden boards.</p>
+    <ul>
+      <li>Play the computer at 5 levels, from Beginner to Expert, or a friend on one device</li>
+      <li>Step-by-step tutorial on the real board</li>
+      <li>A carved wooden board with alpona art on a shital pati mat; glossy cartoon gutis, combos and confetti</li>
+      <li>Profiles, statistics and match history; saved after every move; undo and hints</li>
+      <li>Village house rules, four colour themes, Bangla and English</li>
+      <li>Free, fully offline, no ads, no account, no data collected</li>
+    </ul>
+    <h2>How to play</h2>
+    <p>Each side has 16 gutis. Take turns moving one guti along a line to the next empty point. Jump over an enemy guti next to yours, to the empty point behind it, to capture it, and keep jumping if you can. Capture all enemy gutis, or leave them with no move, to win.</p>
+  </div>
+  <div class="card" data-l="bn">
+    <h2>গ্রামের খেলা, এবার ত্রিমাত্রিক রূপে</h2>
+    <p>ষোলো গুটি বাংলাদেশ, ভারত আর পাকিস্তানের গ্রামগঞ্জের চিরচেনা খেলা। উঠোনে, দাওয়ায়, মাটিতে দাগ কেটে কিংবা কাঠের বোর্ডে প্রজন্মের পর প্রজন্ম ধরে এই খেলা চলে আসছে।</p>
+    <ul>
+      <li>কম্পিউটারের সাথে ৫টি স্তর, নতুন থেকে ওস্তাদ পর্যন্ত, অথবা একই ফোনে বন্ধুর সাথে</li>
+      <li>আসল বোর্ডে ধাপে ধাপে শেখার পাঠ</li>
+      <li>আলপনা আঁকা কাঠের বোর্ড, শীতলপাটি, চকচকে কার্টুন গুটি, ডাবল-হ্যাটট্রিক আর রঙিন কাগজের বৃষ্টি</li>
+      <li>নিজের প্রোফাইল, হিসাব আর খেলার ইতিহাস; প্রতিটি চালে সেভ; ফেরত আর পরামর্শ</li>
+      <li>গ্রামের নিজস্ব নিয়ম, চারটি রং, বাংলা আর ইংরেজি</li>
+      <li>সম্পূর্ণ ফ্রি, পুরোপুরি অফলাইন, কোনো বিজ্ঞাপন নেই, অ্যাকাউন্ট লাগে না</li>
+    </ul>
+    <h2>কীভাবে খেলবে</h2>
+    <p>দুজনের ১৬টি করে গুটি। পালা করে একটি গুটি দাগ ধরে পাশের খালি ঘরে সরাও। পাশে প্রতিপক্ষের গুটি আর তার ঠিক পেছনের ঘর খালি থাকলে লাফ দিয়ে ওটা খেয়ে ফেলো, আবার খাওয়া গেলে আবার লাফ দাও। প্রতিপক্ষের সব গুটি খেয়ে ফেললে, বা সে আর চাল দিতে না পারলে, তুমি জিতবে।</p>
+  </div>
+  <footer><img src="abacus-it.svg" alt="Abacus IT"><span><span data-l="en">Published by Abacus IT</span><span data-l="bn">প্রকাশক: অ্যাবাকাস আইটি</span> · <a href="https://abacusitbd.com">abacusitbd.com</a> · info@abacusitbd.com</span></footer>
+</div>
+<script>
+// Bangla for Bangla devices or Bangladesh's time zone, English elsewhere (same rule as the game); the button switches.
+function detect() {
+  try {
+    const langs = [...(navigator.languages || []), navigator.language].filter(Boolean).map((l) => l.toLowerCase());
+    if (langs.some((l) => l.startsWith("bn"))) return "bn";
+    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone || "";
+    if (tz === "Asia/Dhaka" || tz === "Asia/Dacca") return "bn";
+  } catch (e) {}
+  return "en";
+}
+function set(l) {
+  document.body.className = l; document.documentElement.lang = l;
+  document.getElementById("lang").textContent = l === "bn" ? "English" : "বাংলা";
+  try { localStorage.setItem("sg.site.lang", l); } catch (e) {}
+}
+let saved = null; try { saved = localStorage.getItem("sg.site.lang"); } catch (e) {}
+set(saved || detect());
+document.getElementById("lang").onclick = () => set(document.body.className === "bn" ? "en" : "bn");
+</script>
+</body>
+</html>
